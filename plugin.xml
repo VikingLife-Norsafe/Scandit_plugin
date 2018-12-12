@@ -116,6 +116,7 @@
     <framework src="libc++.dylib"/>
   </platform>
   <platform name="android">
+    <preference name="android-minSdkVersion" value="14" />
     <!-- register plugin -->
     <config-file parent="/widget" target="res/xml/config.xml">
       <feature name="ScanditSDK">
